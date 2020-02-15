@@ -1,12 +1,12 @@
 /*!
  * Start Bootstrap - Business Casual v5.0.9 (https://startbootstrap.com/template-overviews/business-casual)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background-image: linear-gradient(rgba(80, 79, 79, 0.2), rgba(80, 79, 79, 0.2)), url("../img/white-brick-bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -75,7 +75,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #253944;
   font-family: 'Raleway';
 }
 
@@ -225,7 +225,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #253944;
 }
 
 .text-primary {
