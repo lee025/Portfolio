@@ -47,6 +47,7 @@ p {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
+  padding-bottom: 1rem;
 }
 
 .page-section {
@@ -56,6 +57,7 @@ p {
 
 .section-heading {
   text-transform: uppercase;
+  height: 5rem;
 }
 
 .section-heading .section-heading-upper {
@@ -75,7 +77,7 @@ p {
 }
 
 #mainNav {
-  background-color: #253944;
+  background-color: rgba(47, 23, 15, 0.9);
   font-family: 'Raleway';
 }
 
@@ -111,6 +113,10 @@ p {
   padding-bottom: 1.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.project-btn {
+  position: relative;
 }
 
 .intro {
@@ -225,7 +231,7 @@ p {
 }
 
 .footer {
-  background-color: #253944;
+  background-color: rgba(47, 23, 15, 0.9);
 }
 
 .text-primary {
