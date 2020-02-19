@@ -11,3 +11,21 @@
     }
   }
 }
+
+.devicon-cont{
+  display:flex;
+  flex-wrap:wrap;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.devicon-cont li{
+  padding: 1.5rem;
+  font-size: 40px;
+}
+
+#devicon{
+  height: 3rem;
+}

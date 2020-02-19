@@ -1,5 +1,5 @@
 #mainNav {
-  background-color: fade-out($secondary, 0.1);
+  background-color: fade-out($secondary, 0.05);
   @include heading-font;
   .navbar-brand {
     color: $primary;
@@ -9,7 +9,7 @@
       .nav-link {
         color: fade-out($white, 0.3);
 
-        font-weight: 800;
+        // font-weight: 800;
       }
       &.active {
         .nav-link {
