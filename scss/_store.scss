@@ -16,6 +16,39 @@
   }
 }
 
+.font{
+  font-family: Raleway;
+  p {
+    font-size: 15px;
+  }
+  li {
+    font-size: 15px;
+  }
+}
+
+.remove-bullets {
+  list-style-type: none;
+}
+
+.contact-icons {
+  display:flex;
+  flex-wrap:wrap;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.contact-icons a{
+  padding: 1.5rem;
+  font-size: 40px;
+  text-decoration: none;
+  color: $secondary;
+  &:hover{
+    color: darken(#253944, 10%)
+  }
+}
+
 .address {
   strong {
     font-size: 1.2rem;
