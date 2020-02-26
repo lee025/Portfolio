@@ -300,6 +300,31 @@ p {
   font-size: 1.2rem;
 }
 
+.resume-btn {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway';
+  text-transform: capitalize;
+  align-content: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.resume-btn .btn-xl1 {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.resume-btn .btn-xl1:hover {
+  background-color: #131d23;
+  color: #fff;
+}
+
 .footer {
   background-color: rgba(37, 57, 68, 0.95);
 }

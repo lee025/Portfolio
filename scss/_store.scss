@@ -54,3 +54,29 @@
     font-size: 1.2rem;
   }
 }
+
+.resume-btn{
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway';
+  text-transform: capitalize;
+  align-content: center;
+  width: 100%;
+  margin-top: 4rem;
+  // margin-bottom: -3rem;
+  // position: absolute;
+  // bottom: -2rem;
+  .btn-xl1{
+    text-transform: uppercase;
+    color: fade-out($white, 0.3);
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    &:hover{
+      background-color: darken(#253944, 10%);
+      color: $white
+    }
+  }
+}
