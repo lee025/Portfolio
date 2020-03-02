@@ -132,6 +132,7 @@ p {
     left: 0;
     position: absolute;
     bottom: -2rem;
+    z-index: 1;
   }
 }
 
@@ -354,6 +355,10 @@ p {
 .project-btn {
   position: absolute;
   margin-top: 1rem;
+}
+
+.index-btn {
+  margin-top: 2rem;
 }
 
 .product-item-img {
