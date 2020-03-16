@@ -61,6 +61,28 @@ p {
   }
 }
 
+.section-1 {
+  padding-left: 1rem;
+}
+
+.section-2 {
+  padding-left: 3rem;
+}
+
+.right-align-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: -2rem;
+}
+
+.right-align-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: -1rem;
+}
+
 .bg-faded {
   background-color: fade-out($white, 0.15);
 }
