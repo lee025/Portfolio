@@ -70,6 +70,28 @@ p {
   font-weight: 100;
 }
 
+.section-1 {
+  padding-left: 1rem;
+}
+
+.section-2 {
+  padding-left: 3rem;
+}
+
+.right-align-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: -2rem;
+}
+
+.right-align-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: -1rem;
+}
+
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -275,6 +297,10 @@ p {
 
 .remove-bullets {
   list-style-type: none;
+}
+
+.remove-margin-top {
+  margin-top: -0.5rem;
 }
 
 .contact-icons {
